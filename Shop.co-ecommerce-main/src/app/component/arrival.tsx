@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 // src/app/component/arrival.tsx
 "use client";
 
@@ -32,6 +33,7 @@ export default function ArrivalPage() {
   const { addToWishlist } = useWishlist();
   const { addToCart } = useCart();
 
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const [product, setProduct] = useState<any>(null);
   const [quantity, setQuantity] = useState<number>(1);
   const [selectedSize, setSelectedSize] = useState<string | null>(null);
