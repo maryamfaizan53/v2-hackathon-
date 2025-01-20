@@ -9,11 +9,11 @@ import { createClient } from 'next-sanity'
 // export const token = "sk6W4KlLhji0gspQg0rFiV50YHGNGEV0pG5jk8G4JqkBVk4OQVXvmZNFW2cpHpRIoZ7kBYuzXfUl1MIZr5hUIJcpBdFbsqLG8RwRVpxe6968HO385utwm9aShR42IOBmi5y3PMpnuzRM2wL78GuSPuSs0W9D6GorqwPydyg8aOimCO3PeUKt"
 
 export const sanityClient = createClient({
-  projectId: 'rj2eco6e',
+  projectId: 'il256l1d',
   dataset: 'production',
   apiVersion: '2024-12-31',
   useCdn: false, // Set to false if statically generating pages, using ISR or tag-based revalidation
-  token: "skKpue6rjoJfX8oMT39q0lfNUdNsUnm4vhzYki7KwtA3kakRGtSCkLRb2Gn6JQmQeWpGWer82QQt0UaIo7UfjkWcf5sdsswQf1g9AgOmocSMORky1jyDVe5KyDitN97ufag4hZzuFomaohQpw53Ep7KItv9IcfzaiTsqka6bIvVhnkyRw7yg"
+  token: "sko60Zuu73T0TZLq4PKXRyTfkEELLsHLnjd2pcxshdfVHzmbud2WcotEXgMtvIMj2mkaFYIWSbaFe5eHVupsn363TzkivcA2fNkLnQIS1dWfrZbJbtceddqsrjpVWqNRjDqixFbIRm1hOXPMBFPhLJUL8cfvCZ0RuoJK8Fp1NRPtQDQbRJGf"
 })
 
 
